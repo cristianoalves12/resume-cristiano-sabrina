@@ -206,3 +206,58 @@ table{
     padding-bottom: 8px;
 }
 
+.experiences {
+    width: 100%;
+    padding: 80px 0;
+    background-color: var(--dark);
+}
+
+.experiences h3 {
+    text-align: center;
+    font-size: 48px;
+    color: #f4f4f4;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.experiences .box {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.experiences .card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: var(--dark-blue);
+    border-radius: 16px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.experiences i {
+    color: var(--blue);
+    font-size: 72px;
+    display: block;
+    text-align: center;
+    margin: 16px;
+}
+
+.experiences h5 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #f4f4f4;
+    margin-bottom: 12px;
+}
+
+.experiences p {
+    color: #f4f4f4;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
