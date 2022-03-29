@@ -116,3 +116,17 @@ button {
 button a{
     color: #f4f4f4;
 }
+
+footer {
+    background-color: var(--blue);
+}
+.rodape {
+    padding: 8px 0;
+}
+
+.rodape p {
+    color: #f4f4f4;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+}
